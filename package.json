@@ -1,0 +1,37 @@
+{
+	"name": "interview",
+	"version": "1.0.0",
+	"description": "interview times",
+	"main": "index.js",
+	"scripts": {
+		"start": "node server.js",
+		"server": "nodemon server.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/prateekdagurtech/interview.git"
+	},
+	"keywords": [
+		"learn",
+		"and",
+		"earn"
+	],
+	"author": "me",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/prateekdagurtech/interview/issues"
+	},
+	"homepage": "https://github.com/prateekdagurtech/interview#readme",
+	"dependencies": {
+		"cookie-parser": "^1.4.6",
+		"cryptr": "^6.0.2",
+		"dotenv": "^10.0.0",
+		"express": "^4.17.2",
+		"express-fileupload": "^1.2.1",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^6.1.5",
+		"nodemon": "^2.0.15",
+		"path": "^0.12.7"
+	}
+}
